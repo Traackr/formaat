@@ -8,7 +8,7 @@ Formaat
 
 Easily format a number to fit in a given space (number of characters).
 
-Compatible with Require.js/AMD and NodeJS.
+Tested on IE11+, Safari, Firefox, and Chrome. Compatible with Require.js/AMD and NodeJS.
 
 ## Usage
 
