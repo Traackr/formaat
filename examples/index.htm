@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Formaat</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background: #eee;
+        }
+
+        section {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 15px 0;
+            padding: 0 10px 10px 10px;
+        }
+
+        article div {
+            height: 40px;
+            margin-bottom: 20px;
+        }
+
+        article div.css {
+            margin-bottom: 0;
+        }
+
+        article div span {
+            display: inline-block;
+            position: relative;
+            height: 40px;
+            width: 60px;
+        }
+
+        article div span:after {
+            content: attr(title);
+            position: absolute;
+            bottom: -15px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Formaat</h1>
+</div>
+
+<script src="../formaat.js"></script>
+
+<script>
+    function addExample(numChars, num) {
+        var html = '<section class="col-md-12">';
+
+        html += '<article><h4>Number of Chars: ' + numChars + ', Number: ' + num + '</h4>';
+        html += formaat(numChars).abbrev(num);
+        html += '</article>';
+
+        html += '</section>';
+
+        document.querySelector('.container').innerHTML += html;
+    }
+
+    addExample(1, 0);
+    addExample(3, 999);
+    addExample(4, -999);
+    addExample(4.5, 999.14);
+    addExample(4.5, 999.15);
+    addExample(5.5, 999.105);
+    addExample(5.5, 999.104);
+    addExample(4.5, 899.94);
+    addExample(4.5, 899.95);
+    addExample(4.5, 1000);
+    addExample(8, 1000000);
+    addExample(11.5, 1000000000);
+    addExample(4.5, 999.95);
+    addExample(8, 999999.95);
+    addExample(11.5, 999999999.95);
+    addExample(4, 9000);
+    addExample(3, 9000);
+    addExample(2, 9000);
+    addExample(4, 8999);
+    addExample(3, 8999);
+    addExample(2, 8999);
+    addExample(4, 9999);
+    addExample(3, 9999);
+    addExample(4, 8100);
+    addExample(3.5, 8100);
+    addExample(4, 8599);
+    addExample(3.5, 8599);
+    addExample(3, 9999999);
+    addExample(3, 9999999999);
+    addExample(3, 9999999999999);
+    addExample(2, 999);
+    addExample(2, 999.9);
+    addExample(2, 999999);
+    addExample(2, 99.4);
+    addExample(2, 99.5);
+    addExample(2, 9999);
+    addExample(2, 100000);
+    addExample(1, 99);
+    addExample(5.5, 999999);
+
+</script>
+
+</body>
+</html>

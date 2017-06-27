@@ -1,0 +1,33 @@
+{
+  "name": "formaat",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Rajiv Raman",
+      "email": "raj@traackr.com",
+      "url": "https://www.linkedin.com/in/rajivraman/"
+    }
+  ],
+  "description": "Formats numbers given a space to fill (number of characters)",
+  "license": "MIT",
+  "homepage": "https://github.com/?/?",
+  "main": "formaat.js",
+  "dependencies": {
+
+  },
+  "keywords": [
+    "number",
+    "formatting"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/?/?.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
