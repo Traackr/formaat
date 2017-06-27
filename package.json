@@ -8,7 +8,7 @@
   },
   "description": "Simple number formatter",
   "license": "MIT",
-  "homepage": "https://github.com/rajivraman/???",
+  "homepage": "https://github.com/Traackr/formaat",
   "main": "formaat.js",
   "dependencies": {
 
@@ -26,10 +26,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/rajivraman/???.git"
+    "url": "git://github.com/Traackr/formaat.git"
   },
   "bugs": {
-    "url": "https://github.com/rajivraman/???/issues"
+    "url": "https://github.com/Traackr/formaat/issues"
   },
   "scripts": {
     "test": "grunt test"

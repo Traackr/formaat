@@ -1,8 +1,8 @@
 Formaat
 ============
 
-[![Bower version](https://img.shields.io/bower/v/formaat.svg?style=flat-square)](https://github.com/???/???)
-[![NPM version](https://img.shields.io/npm/v/formaat.svg?style=flat-square)](https://www.npmjs.com/package/???)
+[![Bower version](https://img.shields.io/bower/v/formaat.svg?style=flat-square)](https://github.com/Traackr/formaat)
+[![NPM version](https://img.shields.io/npm/v/formaat.svg?style=flat-square)](https://www.npmjs.com/package/formaat)
 
 ## Number formatter
 

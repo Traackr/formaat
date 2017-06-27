@@ -10,7 +10,7 @@
   ],
   "description": "Formats numbers given a space to fill (number of characters)",
   "license": "MIT",
-  "homepage": "https://github.com/?/?",
+  "homepage": "https://github.com/Traackr/formaat",
   "main": "formaat.js",
   "dependencies": {
 
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/?/?.git"
+    "url": "git://github.com/Traackr/formaat.git"
   },
   "ignore": [
     "**/.*",
